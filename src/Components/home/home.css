@@ -1,0 +1,81 @@
+body, button, select, input {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+
+section {
+    margin: auto;
+    padding-block: 75px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+label {
+    margin-block: 15px;
+}
+
+input, select {
+    margin-left: 20px;
+}
+
+#doll { 
+    width: 450px;
+    height: 450px;
+}
+
+#doll-container {
+    display: flex;
+    align-items: center;
+}
+
+#doll-text{
+    width: 850px;
+    background: rgba(64, 46, 16, 0.537);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 35px;
+    color: white;
+    position: relative;
+    font-size: 25px;
+}
+
+#doll-text::before{
+    content: "";
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid rgba(64, 46, 16, 0.537);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    right: 910px;
+    top: 100px;
+}
+
+.startbtn {
+    align-items: center;
+    margin-inline: auto;
+    width: 500px;
+    height: 20px;
+    margin: auto;
+}
+
+.sendbtn {
+    width: 500px;
+    height: 20px;
+    margin: auto;
+}
+
+.enable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.disable {
+    display: none;
+}

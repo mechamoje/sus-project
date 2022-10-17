@@ -1,0 +1,19 @@
+header {
+    border-bottom: 2px solid #B18644 ;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    padding-inline: 30px;    
+}
+
+.header-logo-img {
+    width: 110px;
+    height: 35px;
+}
+
+.header-letter-img { 
+    width: 120px;
+    height: 35px;
+    margin: auto;
+}
