@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import Doll from "../../images/bonecafalando.gif";
 import "./home.css";
-import Information from "../Infomation/Information";
-import List from "../Checklist/List";
+import { Link } from "react-router-dom";
 
-export default function Home(){
+export default function Home() {
   const [selectValue, setSelectValue] = useState(1);
   const [showForm, setShowForm] = useState(false);
   const selectValues = [
@@ -18,13 +17,7 @@ export default function Home(){
     { id: 8, name: "Alimentação" },
     { id: 9, name: "Outros" },
   ];
-
-  function showInfo() {
-    var selected = selectValue
-    console.log(selected)
-  }
-
-
+  
   return (
     <section>
       <div id="doll-container">
@@ -43,19 +36,16 @@ export default function Home(){
 
           <form className={showForm === "#" ? "enable" : "disable"}>
             <label>
-              
               Qual seu nome?
               <input type="text" />
             </label>
 
             <label>
-              
               Qual sua idade?
               <input min="1" max="90" type="number" />
             </label>
 
             <label>
-              
               Qual seu trabalho?
               <select
                 value={selectValue}
@@ -66,8 +56,8 @@ export default function Home(){
                 ))}
               </select>
             </label>
-            <button className="sendbtn enable" onClick={showInfo()}>
-              Enviar
+            <button className="sendbtn enable">
+              <Link to='/info'> Iniciar jornada </Link>
             </button>
           </form>
 
@@ -76,7 +66,7 @@ export default function Home(){
             onClick={() => setShowForm("#")}
             className={showForm === "#" ? "disable" : "enable startbtn"}
           >
-            Iniciar jornada
+            Vamos!
           </button>
         </div>
       </div>

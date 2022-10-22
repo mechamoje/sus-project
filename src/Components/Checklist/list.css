@@ -1,6 +1,32 @@
 #doll-list {
     width: 350px;
     height: 350px;
+    margin-top: 120px;
+}
+
+#doll-text-list{
+    margin-block: 15px;
+    margin-inline: 35px;
+    background: rgba(64, 46, 16, 0.5);
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 35px;
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 22px;
+}
+
+#doll-text-list::before{
+    content: "";
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid  rgba(64, 46, 16, 0.5);
+    border-bottom: 20px solid transparent;
+    right: 800px;
+    top: 137px;
 }
 
 .btn-img {

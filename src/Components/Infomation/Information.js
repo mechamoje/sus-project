@@ -9,6 +9,7 @@ import Animais from "../../images/animais.jpg";
 import Clima from "../../images/clima.jpg";
 import Nature from "../../images/natureza.jpg";
 import People from "../../images/sociedade.jpg";
+import { Link } from "react-router-dom";
 
 export default function Information() {
   const [open1, setOpen1] = useState(false);
@@ -25,19 +26,18 @@ export default function Information() {
   const closeModal5 = () => setOpen5(false);
   const closeModal6 = () => setOpen6(false);
 
-  function showList(){
-    
-  }
-
   return (
     <div className="about">
-
-      <h2 id="info-title"> Antes das soluções, que tal sabermos mais sobre os problemas? </h2>
+      <h2 id="info-title">
+        {" "}
+        Antes das soluções, que tal sabermos mais sobre os problemas?{" "}
+      </h2>
 
       <button
         type="button"
         className="info-cards"
-        onClick={() => setOpen1((o) => !o)}>
+        onClick={() => setOpen1((o) => !o)}
+      >
         <p className="text-img"> Sobre a água</p>{" "}
         <img className="btn-img-info" src={Agua} />
       </button>
@@ -50,7 +50,7 @@ export default function Information() {
       >
         <div className="modal">
           <a className="close" onClick={closeModal1}>
-          <bold>x</bold> {' '}
+            <bold>x</bold>{" "}
           </a>
           O Brasil, que possui 12% das reservas de água doce do planeta, está
           secando. Esta é a conclusão obtida pela análise de imagens de satélite
@@ -83,7 +83,7 @@ export default function Information() {
       >
         <div className="modal">
           <a className="close" onClick={closeModal2}>
-          <bold>x</bold> {' '}
+            <bold>x</bold>{" "}
           </a>
           A Organização Mundial da Saúde estima que só no Brasil existam mais de
           30 milhões de animais abandonados, entre 10 milhões de gatos e 20
@@ -111,7 +111,7 @@ export default function Information() {
       >
         <div className="modal">
           <a className="close" onClick={closeModal3}>
-          <bold>x</bold> {' '}
+            <bold>x</bold>{" "}
           </a>
           Alguns impactos desse desequilíbrio climático já podem ser notados no
           Brasil. A região Sudeste e parte do Nordeste sofrem com chuvas
@@ -143,7 +143,7 @@ export default function Information() {
       >
         <div className="modal">
           <a className="close" onClick={closeModal4}>
-          <bold>x</bold> {'  '}
+            <bold>x</bold> {"  "}
           </a>
           O maior problema do Brasil hoje é o aumento exponencial de pessoas
           passando fome e de pessoas em situação de insegurança alimentar",
@@ -175,7 +175,7 @@ export default function Information() {
       >
         <div className="modal">
           <a className="close" onClick={closeModal5}>
-          <bold>x</bold> {' '}
+            <bold>x</bold>{" "}
           </a>
           O maior problema do Brasil hoje é o aumento exponencial de pessoas
           passando fome e de pessoas em situação de insegurança alimentar",
@@ -207,7 +207,7 @@ export default function Information() {
       >
         <div className="modal">
           <a className="close" onClick={closeModal6}>
-          <bold>x</bold>{' '}
+            <bold>x</bold>{" "}
           </a>
           O problema: florestas ricas em espécies estão sendo destruídas,
           especialmente nos trópicos, para muitas vezes abrir espaço para a
@@ -225,7 +225,9 @@ export default function Information() {
         </div>
       </Popup>
 
-      <button id="btn-action" onClick={showList()} > Quero tomar uma atitude agora </button>
+      <button id="btn-action">
+        <Link to="/tasks"> Quero iniciar a mudança agora! </Link>{" "}
+      </button>
     </div>
   );
 }

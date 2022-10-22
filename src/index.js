@@ -1,23 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Form from './Components/Form/form'
-import Header from './Components/header/Header';
-import Home from './Components/home/home';
-import Information from './Components/Infomation/Information';
-import List from './Components/Checklist/List';
-import Footer from './Components/footer/Footer';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import Form from "./Components/Form/form";
+import Header from "./Components/header/Header";
+import Home from "./Components/home/home";
+import Information from "./Components/Infomation/Information";
+import List from "./Components/Checklist/List";
+import Footer from "./Components/footer/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <Header /> 
-      {/* <Home /> */}
-      {/* <Information /> */}
-  <List />
-  <Footer/>
-
+    <Header />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/info" element={<Information />} />
+        <Route path="/tasks" element={<List />} />
+      </Routes>
+    </BrowserRouter>
+    <Footer />
   </React.StrictMode>
 );
 
