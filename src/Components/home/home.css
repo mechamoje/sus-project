@@ -4,7 +4,7 @@ body, button, select, input {
     font-size: 18px;
 }
 
-section {
+#home-container {
     margin: auto;
     padding-block: 75px;
     display: grid;
@@ -20,6 +20,9 @@ label {
 
 input, select {
     margin-left: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 #doll { 
@@ -37,11 +40,11 @@ input, select {
     background: rgba(64, 46, 16, 0.537);
     padding: 30px;
     text-align: center;
-    font-size: 35px;
     border-radius: 35px;
     color: white;
     position: relative;
-    font-size: 25px;
+    font-size: 27px;
+    line-height: 2rem;
 }
 
 #doll-text::before{
@@ -55,18 +58,36 @@ input, select {
     top: 100px;
 }
 
-.startbtn {
+.startbtn, .sendbtn{
     align-items: center;
     margin-inline: auto;
     width: 500px;
     height: 20px;
     margin: auto;
+    margin-bottom: 27px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
-.sendbtn {
-    width: 500px;
-    height: 20px;
-    margin: auto;
+.startbtn:hover, .sendbtn:hover {
+    color: #B18644;
+    font-weight: 600;
+}
+
+.sendbtn{
+    margin-top: 20px;
+}
+
+.sendbtn a {
+    text-decoration: none;
+    color: black;
+}
+
+.sendbtn a:hover{
+    color: #B18644;
 }
 
 .enable {

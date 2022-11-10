@@ -1,0 +1,131 @@
+[{
+    "id": 1,
+    "task": "Utilizar materiais recicláveis em meus projetos",
+    "complete": false,
+    "field":"Educação"
+  }, {
+    "id": 2,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field":"Vendas"
+  }, {
+    "id": 3,
+    "task": "Consumir energia conscientemente: poupar o que for possível",
+    "complete": false,
+    "field":"Vendas"
+  }, {
+    "id": 4,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field":"Saúde"
+  }, {
+    "id": 5,
+    "task": "Utilizar materiais recicláveis em meus projetos",
+    "complete": false,
+    "field":"Tecnologia"
+  }, {
+    "id": 6,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field":"Informação"
+  }, {
+    "id": 7,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field":"Serviços"
+  }, {
+    "id": 8,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field":"Beleza e estética"
+  }, {
+    "id": 9,
+    "task":"Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field":"Alimentação"
+  }, {
+    "id": 10,
+    "task": "Envolver meus docentes em projetos sociais",
+    "complete": false,
+    "field":"Educação"
+  }, {
+    "id": 11,
+    "task": "Conscientizar meus docentes sobre o uso da água",
+    "complete": false,
+    "field":"Educação"
+  }, {
+    "id": 12,
+    "task": "Assistir o documentário 'Terráqueos' ou outros relacionados à causa animal",
+    "complete": false,
+    "field":"Outros"
+  }, {
+    "id": 13,
+    "task": "Dedicar parte do alimento que produzo/sirvo à pessoas necessitadas",
+    "complete": false,
+    "field":"Alimentação"
+  }, {
+  "id": 14,
+  "task": "Reduzir meu tempo de banho",
+  "complete": false,
+  "field":"Outros"
+}, {
+  "id": 15,
+  "task": "Descobrir como tornar minha produção mais natural e orgânica para os consumidores",
+  "complete": false,
+  "field":"Alimentação"
+}, {
+  "id": 16,
+  "task": "Desligar aparelhos eletrodomésticos após o uso",
+  "complete": false,
+  "field":"Outros"
+}, {
+  "id": 17,
+  "task": "Reduzir o uso de produtos aerossóis",
+  "complete": false,
+  "field":"Outros"
+}, {
+  "id": 18,
+  "task": "Desligar aparelhos eletrodomésticos após o uso",
+  "complete": false,
+  "field":"Tecnologia"
+}, {
+  "id": 19,
+  "task": "Dedicar parte de meus serviços à pessoas carentes, ainda que apenas 1 vez no mês.",
+  "complete": false,
+  "field":"Beleza e estética"
+}, {
+  "id": 20,
+  "task": "Prover refeição à animais de rua",
+  "complete": false,
+  "field":"Outros"
+}, {
+  "id": 21,
+  "task": "Incentivar meus discentes à adoção de animais de rua",
+  "complete": false,
+  "field":"Educação"
+}, {
+  "id": 22,
+  "task": "Utilizar materiais recicláveis em meus serviços",
+  "complete": false,
+  "field":"Serviços"
+}, {
+  "id": 23,
+  "task": "Utilizar materiais recicláveis em meus serviços",
+  "complete": false,
+  "field":"Vendas"
+}, {
+  "id": 24,
+  "task": "Utilizar materiais recicláveis em meus serviços",
+  "complete": false,
+  "field":"Vendas"
+}, {
+  "id": 25,
+  "task": "Utilizar materiais recicláveis em meus serviços",
+  "complete": false,
+  "field":"Vendas"
+}, {
+  "id": 26,
+  "task": "Utilizar materiais recicláveis em meus serviços",
+  "complete": false,
+  "field":"Vendas"
+}]

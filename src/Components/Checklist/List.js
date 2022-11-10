@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import New from "../../images/setas.png";
 import "./list.css";
 import Doll from "../../images/bonecafalando.gif";
+import Form from "./ToDo/Form";
+import ToDo from "./ToDo/ToDo";
+import StaticToDo from "./Static/StaticToDo";
 
 export default function List() {
+  const initialState = JSON.parse(localStorage.getItem("toDo")) || []; //criar opção limpar localstorage
+  const [input, setInput] = useState("");
+  const [toDo, setToDo] = useState(initialState);
+  const [editToDo, setEditToDo] = useState(null);
+
+  useEffect(() => {
+    localStorage.setItem("toDo", JSON.stringify(toDo));
+  }, [toDo]);
+
   return (
-    <>    
+    <>
       <article id="doll-text-list">
         <p>
           {" "}
-          Que bom que você deseja tomar uma atitude! o mundo precisa de você. Se
-          cada um ajudar, podemos chegar mto longe. Vc tb acredita nisso? Então
-          vamos lá! Aqui está a lista de ações que vpcê pode tomar ainda HOJE
-          pra ajudar com o meio em que vivemos. Vc também pode registrar aqui o
-          andamento dessas tarefas. Por que não inicia agora?
+          Que bom que você deseja tomar uma atitude, o mundo precisa de você!{" "}
+          <br /> Toda mudança acontece a partir de um princípio, mas se cada um
+          fizer sua parte, podemos chegar muito longe!
+          Mas como nem sempre é fácil saber por onde começar, eu vim te ajudar com isso!<br/>
+          Acabei de gerar uma lista de ações que você pode tomar ainda <b>HOJE</b> pra contribuir com o meio
+          em que vivemos. <br/> Além disso, Você também pode registrar aqui o andamento dessas
+          tarefas. Por que não inicia agora?
         </p>
       </article>
 
@@ -21,20 +35,19 @@ export default function List() {
         <picture>
           <img id="doll-list" src={Doll} alt="avatar de boneca" />
         </picture>
-      </div>
 
-     <div id="list">
-      <ol>
-        <li>
-          {" "}
-          Reduzir o consumo de plásticos (que tal sacolas retornáveis?)
-          <input type="checkbox" />
-          <button className="btn-img">
-            {" "}
-            <img className="btn-img" src={New} />{" "}
-          </button>
-        </li>
-      </ol>
+        <div id="list">
+          <StaticToDo />
+          <Form
+            input={input}
+            setInput={setInput}
+            toDo={toDo}
+            setToDo={setToDo}
+            editToDo={editToDo}
+            setEditToDo={setEditToDo}
+          />
+          <ToDo toDo={toDo} setToDo={setToDo} setEditToDo={setEditToDo} />
+        </div>
       </div>
     </>
   );

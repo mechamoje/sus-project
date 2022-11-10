@@ -1,7 +1,7 @@
 #doll-list {
-    width: 350px;
-    height: 350px;
-    margin-top: 120px;
+    width: 385px;
+    height: 385px;
+    margin-top: 85px;
 }
 
 #doll-text-list{
@@ -26,7 +26,30 @@
     border-top: 20px solid  rgba(64, 46, 16, 0.5);
     border-bottom: 20px solid transparent;
     right: 800px;
-    top: 137px;
+    top: 192px;
+}
+
+#doll-container-list{
+    margin-top: 50px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#list {
+    background-color: rgba(106, 86, 52, 0.5);
+    padding: 25px;
+    font-size: 1.2rem;
+    margin-right: 100px;
+    width: 45rem;
+}
+
+.form-input {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .btn-img {

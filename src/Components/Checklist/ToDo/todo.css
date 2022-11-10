@@ -1,0 +1,47 @@
+.list-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.list {
+    padding: 0;
+}
+
+.complete-list{
+    color: green;
+}
+
+#to-do-list {
+    background-color:  rgba(215, 213, 210, 0.5);;
+}
+
+.button-add, .task-input {
+    padding: 10px;
+    height: 100%;
+}
+
+.button-add{
+    cursor: pointer;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.task-input {
+    background-color: #fff;
+    border: none;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.complete {
+   color: rgb(40, 150, 40);
+}

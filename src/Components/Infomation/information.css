@@ -10,38 +10,52 @@ bold:hover{
 }
 
 #info-title {
-    order: 0;
-    grid-column: span 3;
-    margin: auto;
+    margin-inline: auto;
     font-size: 27px;
-    margin-block: 20px;
+    text-align: center;
+    margin-block: 2rem;
+}
+
+#btn-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #btn-action {
-    grid-column: span 3 !important;
     height: 50px;
     width: 850px;
     border-radius: 4px;
     border: none;
     font-size: 22px;
+    background-color: rgba(228, 206, 169, 0.23);
+}
+
+#btn-action a{
+    color: rgb(87, 76, 76);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 #btn-action:hover{
-    background-color: rgba(64, 46, 16, 0.537);
-    color: white;
+    background-color:rgba(114, 76, 11, 0.23);
     cursor: pointer;
 }
 
-.info-cards {
+.info-card {
     padding: 20px;
     width: 320px;
     height: 240px;
     border: none;
     border-radius: 5px;
+    color: rgb(87, 76, 76);
+    background-color: rgba(228, 206, 169, 0.23);
 }
 
-.info-cards:hover{
+.info-card:hover{
     cursor: pointer;
+    background-color:rgba(114, 76, 11, 0.23);
 }
 
 .text-img{ 
@@ -56,14 +70,13 @@ bold:hover{
     height: 150px;
 }
 
-.about {
+#cards-container {
     display: grid;
-    column-gap: 45px;
     row-gap: 30px;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 50px 1fr 1fr 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat( 2, 1fr);
     justify-content: center;
-    margin-block: 30px;
+    margin-bottom: 30px;
     align-items: center;
     justify-items: center;
 }

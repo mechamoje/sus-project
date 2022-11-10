@@ -10,7 +10,7 @@ export default function footer() {
         </div>
         <ol id='footer-nav'> 
             <li> <a className='footer-link' href='https://arts-jessica-ferreira.vercel.app/' target='blank' rel='noreffer'> Criadora</a> </li>
-            <li>  <a className='footer-link' href='forms' target='blank' rel='noreffer'> Feedback </a> </li>
+            <li>  <a className='footer-link' href='https://docs.google.com/forms/d/e/1FAIpQLSd0YneoCIM4LNx_CWFcX0liS5yTu-uaJoP7yvgfSzNIPx0h1w/viewform?usp=sf_link' target='blank' rel='noreffer'> Feedback </a> </li>
             <li>  <a className='footer-link' href='limpa dados' target='blank' rel='noreffer' onClick={localStorage. clear()} > Reinicie sua jornada</a>  </li>
         </ol>
     </footer>

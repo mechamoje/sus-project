@@ -4,22 +4,24 @@ import "./home.css";
 import { Link } from "react-router-dom";
 
 export default function Home() {
+
   const [selectValue, setSelectValue] = useState(1);
+
   const [showForm, setShowForm] = useState(false);
+
   const selectValues = [
     { id: 1, name: "Educação" },
     { id: 2, name: "Vendas" },
     { id: 3, name: "Saúde" },
     { id: 4, name: "Tecnologia" },
     { id: 5, name: "Informação" },
-    { id: 6, name: "Serviços" },
-    { id: 7, name: "Beleza e estética" },
-    { id: 8, name: "Alimentação" },
-    { id: 9, name: "Outros" },
+    { id: 6, name: "Beleza e estética" },
+    { id: 7, name: "Alimentação" },
+    { id: 8, name: "Outros" },
   ];
   
   return (
-    <section>
+    <section id="home-container">
       <div id="doll-container">
         <picture>
           <img id="doll" src={Doll} alt="avatar de boneca" />
@@ -27,26 +29,28 @@ export default function Home() {
 
         <div id="doll-text">
           <p id="text" className={showForm === "#" ? "disable" : "enable"}>
-            Olá! seja bem vindo ao nosso projeto! Nosso objetivo hoje é que você
+            <b>Olá!</b> Seja bem vindo(a) ao nosso projeto! <br/>
+            Nosso objetivo hoje é que você
             saia daqui sabendo mais do que sabe agora sobre sustentabilidade e
             que saiba exatamente quais AÇÕES tomar a partir de HOJE para
             impactar positivamente o ambiente ao seu redor, para você e para o
-            próximo. Vamos nessa?
+            próximo. <br/>
+            Você está pronto para essa experiência?
           </p>
 
           <form className={showForm === "#" ? "enable" : "disable"}>
             <label>
               Qual seu nome?
-              <input type="text" />
+              <input type="text" className="home-input" />
             </label>
 
             <label>
               Qual sua idade?
-              <input min="1" max="90" type="number" />
+              <input min="1" max="90" className="home-input" type="number" />
             </label>
 
             <label>
-              Qual seu trabalho?
+              Qual sua área de atuação?
               <select
                 value={selectValue}
                 onChange={(e) => setSelectValue(e.target.value)}
@@ -57,7 +61,7 @@ export default function Home() {
               </select>
             </label>
             <button className="sendbtn enable">
-              <Link to='/info'> Iniciar jornada </Link>
+              <Link to={`/info/${selectValue}`} > Iniciar jornada </Link>
             </button>
           </form>
 
@@ -66,7 +70,7 @@ export default function Home() {
             onClick={() => setShowForm("#")}
             className={showForm === "#" ? "disable" : "enable startbtn"}
           >
-            Vamos!
+            Com certeza!
           </button>
         </div>
       </div>

@@ -5,7 +5,15 @@ header {
     align-items: center;
     top: 0;
     padding-inline: 30px;    
+    align-content: center;
+    justify-content: space-between;
 }
+
+header .home-btn {
+    text-decoration: none;
+    color:#B18644;
+    font-weight: 600;
+ }
 
 .header-logo-img {
     width: 110px;
