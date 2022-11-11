@@ -5,6 +5,7 @@
   align-content: center;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 10px
 }
 
 .data-item:last-child {

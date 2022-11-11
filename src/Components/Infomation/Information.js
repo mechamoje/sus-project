@@ -58,16 +58,10 @@ export default function Information() {
               <bold>x</bold>{" "}
             </a>
             O Brasil, que possui 12% das reservas de água doce do planeta, está
-            secando. Esta é a conclusão obtida pela análise de imagens de
+            secando: esta é a conclusão obtida pela análise de imagens de
             satélite de todo o território nacional entre 1985 e 2020 feita pela
             equipe do MapBiomas. O país vem perdendo 15% da superfície de água
-            desde o começo dos anos 1990.A superfície coberta por água do Brasil
-            em 2020 era de 16,6 milhões de hectares, uma área equivalente ao
-            estado do Acre ou quase 4 vezes o estado do Rio de Janeiro. Desde
-            1991, quando chegou a 19,7 milhões de hectares, houve uma redução de
-            15,7% da superfície de água no país. A perda de 3,1 milhões de
-            hectares em 30 anos equivale a mais de uma vez e meia a superfície
-            de água de toda região nordeste em 2020.
+            desde o começo dos anos 1990.
           </div>
         </Popup>
 
@@ -95,7 +89,8 @@ export default function Information() {
             milhões de cães. Em cidades de grande porte, para cada cinco
             habitantes há um cachorro. Destes, 10% estão abandonados. No
             interior, em cidades menores, a situação não é muito diferente. Em
-            muitos casos o numero chega a 1/4 da população humana.
+            muitos casos o numero de animais em situação de rua chega a 1/4 da
+            população humana.
           </div>
         </Popup>
 
@@ -118,8 +113,8 @@ export default function Information() {
             <a className="close" onClick={closeModal3}>
               <bold>x</bold>{" "}
             </a>
-            Alguns impactos desse desequilíbrio climático já podem ser notados
-            no Brasil. A região Sudeste e parte do Nordeste sofrem com chuvas
+            Existe um desequilíbrio climático imenso que já pode ser notados no
+            Brasil. A região Sudeste e parte do Nordeste sofrem com chuvas
             intensas, que deixam mortos e desabrigados. No Sul, secas históricas
             causam desabastecimento de água em centenas de municípios. No Norte,
             a bacia amazônica tem enchentes históricas e o processo de
@@ -152,16 +147,14 @@ export default function Information() {
               <bold>x</bold> {"  "}
             </a>
             O maior problema do Brasil hoje é o aumento exponencial de pessoas
-            passando fome e de pessoas em situação de insegurança alimentar",
-            afirma a cientista política Camila Rocha. Atualmente, 55% da
-            população brasileira vive em situação de{" "}
-            <a> insegurança alimentar</a>. Além disso, a fome afeta atualmente
-            33,1 milhões de brasileiros, de acordo com uma pesquisa lançada em
-            2022. É o equivalente a 15,5% da população. As regiões Norte e
-            Nordeste são as mais afetadas. As causas para a fome no Brasil
-            compreendem desde questões sociais e econômicas até políticas,
-            destacando-se as desigualdades sociais, a pobreza, as crises
-            (política, econômica, sanitária) e a má distribuição de alimentos.
+            passando fome e de pessoas em situação de insegurança alimentar.
+            Atualmente, 55% da população brasileira vive em situação de
+            insegurança alimentar. Além disso, a fome afeta atualmente 15,5% da
+            população, sendo as regiões Norte e Nordeste são as mais afetadas.
+            As causas para a fome no Brasil compreendem desde questões sociais e
+            econômicas até políticas, destacando-se as desigualdades sociais, a
+            pobreza, as crises (política, econômica, sanitária) e a má
+            distribuição de alimentos.
           </div>
         </Popup>
 
@@ -183,17 +176,12 @@ export default function Information() {
             <a className="close" onClick={closeModal5}>
               <bold>x</bold>{" "}
             </a>
-            O maior problema do Brasil hoje é o aumento exponencial de pessoas
-            passando fome e de pessoas em situação de insegurança alimentar",
-            afirma a cientista política Camila Rocha. Atualmente, 55% da
-            população brasileira vive em situação de{" "}
-            <a> insegurança alimentar</a>. Além disso, a fome afeta atualmente
-            33,1 milhões de brasileiros, de acordo com uma pesquisa lançada em
-            2022. É o equivalente a 15,5% da população. As regiões Norte e
-            Nordeste são as mais afetadas. As causas para a fome no Brasil
-            compreendem desde questões sociais e econômicas até políticas,
-            destacando-se as desigualdades sociais, a pobreza, as crises
-            (política, econômica, sanitária) e a má distribuição de alimentos.
+            A pobreza nunca esteve tão alta no Brasil quanto em 2021, que
+            comprovou que 29,6% dos brasileiros têm renda familiar inferior a R$
+            497 mensais. Além disso, o Brasil permanece um dos países com maior
+            desigualdade social e de renda do mundo, segundo o novo estudo
+            lançado mundialmente nesta terça-feira (7/12) pelo World Inequality
+            Labo Brasil.
           </div>
         </Popup>
 
@@ -215,19 +203,17 @@ export default function Information() {
             <a className="close" onClick={closeModal6}>
               <bold>x</bold>{" "}
             </a>
-            O problema: florestas ricas em espécies estão sendo destruídas,
-            especialmente nos trópicos, para muitas vezes abrir espaço para a
-            criação de gado, para plantações de soja ou de óleo de palma, ou
-            para outras monoculturas agrícolas. Cerca de 30% da área terrestre
-            do planeta é coberta por florestas – isso é cerca de metade do que
-            existia antes de o início da agricultura, 11 mil anos atrás. Cerca
-            de 7,3 milhões de hectares de floresta são destruídos a cada ano,
-            principalmente nos trópicos. Florestas tropicais costumavam cobrir
-            cerca de 15% da área terrestre do planeta. Atualmente elas cobrem de
-            6% a 7%. Grande parte do que sobrou foi degradado pela derrubada de
-            árvores ou queimadas. As florestas naturais não atuam apenas como
-            reservas da biodiversidade, eles também são reservatórios que mantêm
-            o carbono fora da atmosfera e dos oceanos.
+            Florestas ricas em espécies estão sendo destruídas, para muitas
+            vezes abrir espaço para a criação de gado, para plantações de soja
+            ou de óleo de palma, ou para outras monoculturas agrícolas. Isso
+            compreende a 7,3 milhões de hectares de floresta que são destruídos
+            a cada ano, principalmente nos trópicos. Florestas tropicais
+            costumavam cobrir cerca de 15% da área terrestre do planeta.
+            Atualmente elas cobrem de 6% a 7%. Grande parte do que sobrou foi
+            degradado pela derrubada de árvores ou queimadas. As florestas
+            naturais não atuam apenas como reservas da biodiversidade, eles
+            também são reservatórios que mantêm o carbono fora da atmosfera e
+            dos oceanos.
           </div>
         </Popup>
       </section>
@@ -240,10 +226,7 @@ export default function Information() {
           </Link>
         </button>
         <button id="btn-action-mobile">
-          <Link to={`/tasks/${params.id}`}>
-            {" "}
-            Iniciar a mudança agora!{" "}
-          </Link>
+          <Link to={`/tasks/${params.id}`}> Iniciar a mudança agora! </Link>
         </button>
       </div>
     </div>
