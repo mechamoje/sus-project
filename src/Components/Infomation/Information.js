@@ -65,6 +65,8 @@ export default function Information() {
             desde o começo dos anos 1990.
             <a
               className="info-link"
+              target="blank"
+              rel="noreffer"
               href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
             >
               <AiFillInfoCircle />
@@ -100,6 +102,8 @@ export default function Information() {
             população humana.
             <a
               className="info-link"
+              target="blank"
+              rel="noreffer"
               href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
             >
               <AiFillInfoCircle />
@@ -140,6 +144,8 @@ export default function Information() {
             exemplo”, diz a pesquisadora.
             <a
               className="info-link"
+              target="blank"
+              rel="noreffer"
               href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
             >
               <AiFillInfoCircle />
@@ -176,6 +182,8 @@ export default function Information() {
             distribuição de alimentos.
             <a
               className="info-link"
+              target="blank"
+              rel="noreffer"
               href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
             >
               <AiFillInfoCircle />
@@ -209,6 +217,8 @@ export default function Information() {
             Labo Brasil.
             <a
               className="info-link"
+              target="blank"
+              rel="noreffer"
               href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
             >
               <AiFillInfoCircle />
@@ -247,6 +257,8 @@ export default function Information() {
             dos oceanos.
             <a
               className="info-link"
+              target="blank"
+              rel="noreffer"
               href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
             >
               <AiFillInfoCircle />
