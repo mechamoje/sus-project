@@ -5,7 +5,7 @@
   align-content: center;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .data-item:last-child {
@@ -42,4 +42,16 @@
 .btn-container button {
   margin-right: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .btn-complete,
+  .btn-delete,
+  .btn-edit,
+  .btn-new {
+    border-radius: 0;
+    padding: 0;
+    color: black;
+    border: none;
+  }
 }
