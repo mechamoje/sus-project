@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { TbExchange } from "react-icons/tb";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import "./static.css";
+import { HiTrash } from "react-icons/hi";
 
 const swap = (tasks) => (position1, position2) => {
   const newTasks = tasks.slice();
@@ -17,10 +18,6 @@ const swap = (tasks) => (position1, position2) => {
 function StaticToDo({ initialState, value }) {
   const params = useParams();
   const idValue = params.id;
-
-  const [complete, setComplete] = useState([]);
-
-  const [lateTasks, setLateTasks] = useState([]);
 
   const map = (idValue) => {
     switch (idValue) {
@@ -43,7 +40,11 @@ function StaticToDo({ initialState, value }) {
     }
   };
 
+  const allTasksFromLocalStorageRaw = localStorage.getItem('allTasks');
+  const allTasksFromLocalStorage = allTasksFromLocalStorageRaw ? JSON.parse(allTasksFromLocalStorageRaw) : null;
+
   const [allTasks, setAlltasks] = useState(
+    allTasksFromLocalStorage ??
     data
       .filter(
         (tarefa) => tarefa.field === map(idValue) || tarefa.field === "Outros"
@@ -58,28 +59,38 @@ function StaticToDo({ initialState, value }) {
       })
   );
 
+  const completedTasks = allTasks.filter((task) => task.complete);
+  const incompleteTasks = allTasks.filter((task) => !task.complete);
+
+  const setTasks = (tasks) => {
+    setAlltasks(tasks);
+    localStorage.setItem('allTasks', JSON.stringify(tasks));
+  }
+
   const completeTask = (task) => {
     const position = allTasks.findIndex((t) => t === task);
     allTasks[position].complete = true;
     const newTasks = swap(allTasks)(position, 3);
-    setAlltasks(swap(newTasks)(3, newTasks.length -1));
+    setTasks(swap(newTasks)(3, newTasks.length - 1));
   };
-
-  let completedTasks = allTasks.filter((task) => task.complete);
-  localStorage.setItem("completedTasks", JSON.stringify(completedTasks));
-
-  let incompleteTasks = allTasks.filter((task) => !task.complete);
 
   const buscarTarefa = (task) => {
     if (allTasks.filter((t) => !t.complete).length <= 3) return;
-    let position = allTasks.findIndex((t) => t === task);
+    const position = allTasks.findIndex((t) => t === task);
     const newTasks = swap(allTasks)(position, 3);
-    let restante = newTasks.slice(4).concat(allTasks[position])
-    let swapvar =  newTasks.slice(0, 3).concat(restante)
-    setAlltasks(swapvar);
+    const restante = newTasks.slice(4).concat(allTasks[position])
+    const swapvar = newTasks.slice(0, 3).concat(restante)
+    setTasks(swapvar);
     console.log(swapvar);
   };
-  
+
+  const apagarTarefa = task => {
+    const position = allTasks.findIndex(t => t === task);
+    const newTasks = [...allTasks];
+    newTasks.splice(position, 1);
+    setTasks(newTasks);
+  }
+
 
   const Troca = (tasks, idValue, dataItem) => {
     if (idValue) {
@@ -114,6 +125,13 @@ function StaticToDo({ initialState, value }) {
             {completedTasks.map((dado, key) => (
               <li className="data-item" key={key}>
                 {dado.task}
+
+                <button
+                  className="btn-new"
+                  onClick={() => apagarTarefa(dado)}
+                >
+                  <HiTrash />
+                </button>
               </li>
             ))}
           </ul>
