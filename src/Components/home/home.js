@@ -4,7 +4,6 @@ import "./home.css";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-
   const [selectValue, setSelectValue] = useState(1);
 
   const [showForm, setShowForm] = useState(false);
@@ -19,7 +18,7 @@ export default function Home() {
     { id: 7, name: "Alimentação" },
     { id: 8, name: "Outros" },
   ];
-  
+
   return (
     <section id="home-container">
       <div id="doll-container">
@@ -29,21 +28,23 @@ export default function Home() {
 
         <div id="doll-text">
           <p id="text" className={showForm === "#" ? "disable" : "enable"}>
-            <b>Olá!</b> Seja bem vindo(a) ao nosso projeto! <br/>
-            Nosso objetivo hoje é que você
-            saia daqui sabendo mais do que sabe agora sobre sustentabilidade e
-            que saiba exatamente quais AÇÕES tomar a partir de HOJE para
-            impactar positivamente o ambiente ao seu redor, para você e para o
-            próximo. <br/>
+            <b>Olá!</b> Seja bem vindo(a) ao nosso projeto! <br />
+            Nosso objetivo hoje é que você saia daqui sabendo mais do que sabe
+            agora sobre sustentabilidade e que saiba exatamente quais AÇÕES
+            tomar a partir de HOJE para impactar positivamente o ambiente ao seu
+            redor, para você e para o próximo. <br />
             Você está pronto para essa experiência?
           </p>
 
-          <p id="text-mobile" className={showForm === "#" ? "disable" : "enable"}>
-            <b>Olá!</b> Seja bem vindo(a) ao nosso projeto! <br/>
-            Nosso objetivo  é que você
-            saia daqui sabendo mais do que sabe agora sobre sustentabilidade e
-            que saiba exatamente quais AÇÕES tomar a partir de HOJE para
-            impactar positivamente o ambiente ao seu redor. <br/>
+          <p
+            id="text-mobile"
+            className={showForm === "#" ? "disable" : "enable"}
+          >
+            <b>Olá!</b> Seja bem vindo(a) ao nosso projeto! <br />
+            Nosso objetivo é que você saia daqui sabendo mais do que sabe agora
+            sobre sustentabilidade e que saiba exatamente quais AÇÕES tomar a
+            partir de HOJE para impactar positivamente o ambiente ao seu redor.{" "}
+            <br />
             Vamos nessa experiência?
           </p>
 
@@ -62,17 +63,19 @@ export default function Home() {
               Qual sua área de atuação?
               <select
                 value={selectValue}
-                onChange={(e) => {console.log('qualquer', e.target.value) 
-                  setSelectValue(e.target.value)}}
+                onChange={(e) => setSelectValue(e.target.value)}
               >
-                {selectValues.map((item, index) => (
-                  <option key={index} value={item.id}> {item.name}</option>
+                {selectValues.map((item) => (
+                  <option key={item.id} value={item.id}>
+                    {item.name}
+                  </option>
                 ))}
               </select>
             </label>
-            <button className="sendbtn enable">
-              <Link to={`/info/${selectValue}`} > Iniciar jornada </Link>
-            </button>
+
+            <Link to={`/info/${selectValue}`} className="sendbtn enable">
+              Iniciar jornada
+            </Link>
           </form>
 
           <button

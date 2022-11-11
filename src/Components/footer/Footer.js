@@ -2,6 +2,12 @@ import React from 'react'
 import './footer.css'
 import logo from '../../images/emi-footer-r.png'
 
+const restartJourney = (e) => {
+  e.preventDefault();
+  localStorage.clear();
+  window.location.href = '/';
+};
+
 export default function footer() {
   return (
     <footer>
@@ -11,7 +17,7 @@ export default function footer() {
       <ol id='footer-nav'>
         <li> <a className='footer-link' href='https://arts-jessica-ferreira.vercel.app/' target='blank' rel='noreffer'> Criadora</a> </li>
         <li>  <a className='footer-link' href='https://docs.google.com/forms/d/e/1FAIpQLSd0YneoCIM4LNx_CWFcX0liS5yTu-uaJoP7yvgfSzNIPx0h1w/viewform?usp=sf_link' target='blank' rel='noreffer'> Feedback </a> </li>
-        <li>  <a className='footer-link' href='/' target='blank' rel='noreffer' onClick={() => localStorage.clear()} > Reinicie sua jornada</a>  </li>
+        <li>  <a className='footer-link' href='limpa dados' target='blank' rel='noreffer' onClick={restartJourney}> Reinicie sua jornada</a>  </li>
       </ol>
     </footer>
   )

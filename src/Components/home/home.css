@@ -50,8 +50,8 @@ select {
   line-height: 2rem;
 }
 
-#doll-text{
-    background: rgba(64, 46, 16, 0.537);
+#doll-text {
+  background: rgba(64, 46, 16, 0.537);
 }
 
 #text-mobile {
@@ -75,6 +75,7 @@ select {
   margin-inline: auto;
   width: 500px;
   height: 20px;
+  box-sizing: border-box;
   margin: auto;
   margin-bottom: 27px;
   padding: 20px;
@@ -92,14 +93,11 @@ select {
 
 .sendbtn {
   margin-top: 20px;
-}
-
-.sendbtn a {
   text-decoration: none;
   color: black;
 }
 
-.sendbtn a:hover {
+.sendbtn:hover {
   color: #b18644;
 }
 
@@ -111,10 +109,10 @@ select {
 }
 
 .enable label {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .disable {
@@ -149,7 +147,8 @@ select {
     padding: 0;
   }
 
-  .startbtn, .sendbtn {
+  .startbtn,
+  .sendbtn {
     width: 430px;
   }
 }
