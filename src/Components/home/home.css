@@ -29,8 +29,8 @@ select {
 }
 
 #doll {
-  width: 250px;
-  height: 250px;
+  width: 385px;
+  height: 385px;
 }
 
 #doll-container {
@@ -122,6 +122,11 @@ select {
 @media (max-width: 550px) {
   #doll-container {
     flex-direction: column;
+  }
+
+  #doll {
+    width: 250px;
+    height: 250px;
   }
 
   #doll-text {
