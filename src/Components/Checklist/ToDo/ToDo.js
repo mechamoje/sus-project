@@ -29,13 +29,13 @@ function ToDo({ toDo: toDoList, setToDo, setEditToDo }) {
             {toDo.title} </p>      
         <div className="btn-container"> 
         <button className="btn-complete" onClick={() => handleComplete(toDo)}>
-        <BsFillCheckCircleFill /> 
+        <BsFillCheckCircleFill className="mobile-icon"/> 
         </button>
         <button className="btn-edit" onClick={() => handleEdit(toDo)}>
-        <TbEdit />
+        <TbEdit className="mobile-icon"/>
         </button>
         <button className="btn-delete" onClick={() => handleDelete(toDo)}>
-          <HiTrash />  
+          <HiTrash className="mobile-icon"/>  
         </button>
         </div> 
         </li>

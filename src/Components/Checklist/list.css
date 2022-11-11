@@ -83,6 +83,7 @@
 
   #doll-text-list-mobile {
     display: block;
+    font-size: 18px;
   }
 
   #doll-text-list {
@@ -93,7 +94,20 @@
     display: none;
   }
 
-  #doll-list{
+  #doll-list {
     margin-top: 0;
+  }
+  #doll-list {
+    width: 250px;
+    height: 250px;
+  }
+
+  .mobile-icon {
+    color: black;
+  }
+
+  .btn-complete, .btn-delete, .btn-edit, .btn-new {
+    border-radius: 0;
+    padding: 0;
   }
 }

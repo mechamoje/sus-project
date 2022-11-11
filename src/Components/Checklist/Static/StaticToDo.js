@@ -107,7 +107,7 @@ function StaticToDo({ initialState, value }) {
                       completeTask(dado);
                     }}
                   >
-                    <BsFillCheckCircleFill />
+                    <BsFillCheckCircleFill className="mobile-icon" />
                   </button>
                   <button
                     className="btn-new"
@@ -115,7 +115,7 @@ function StaticToDo({ initialState, value }) {
                       buscarTarefa(dado);
                     }}
                   >
-                    <TbExchange />
+                    <TbExchange className="mobile-icon"/>
                   </button>
                 </div>
               </li>
@@ -130,7 +130,7 @@ function StaticToDo({ initialState, value }) {
                   className="btn-new"
                   onClick={() => apagarTarefa(dado)}
                 >
-                  <HiTrash />
+                  <HiTrash className="mobile-icon"/>
                 </button>
               </li>
             ))}
