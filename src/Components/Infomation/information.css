@@ -9,7 +9,6 @@ bold:hover {
   color: rgba(64, 46, 16, 0.537);
 }
 
-
 #info-title {
   margin-inline: auto;
   font-size: 27px;
@@ -23,7 +22,8 @@ bold:hover {
   align-items: center;
 }
 
-#btn-action, #btn-action-mobile{
+#btn-action,
+#btn-action-mobile {
   height: 50px;
   width: 850px;
   border-radius: 4px;
@@ -32,7 +32,8 @@ bold:hover {
   background-color: rgba(228, 206, 169, 0.23);
 }
 
-#btn-action a, #btn-action-mobile a {
+#btn-action a,
+#btn-action-mobile a {
   color: rgb(87, 76, 76);
   text-decoration: none;
   font-size: 25px;
@@ -93,6 +94,17 @@ bold:hover {
   line-height: 30px;
 }
 
+.modal .info-link {
+  text-decoration: none;
+  margin-left: 20px;
+  color: rgba(110, 78, 23, 0.757);
+}
+
+.modal .info-link:hover {
+  cursor: pointer;
+  color: rgba(92, 60, 6, 0.875);
+}
+
 @media (max-width: 550px) {
   #cards-container {
     grid-template-columns: repeat(1, 1fr);
@@ -105,5 +117,10 @@ bold:hover {
   #btn-action-mobile {
     display: block;
     width: 350px;
+  }
+
+  .popup-content {
+    font-size: 15px;
+    line-height: 20px;
   }
 }

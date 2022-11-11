@@ -10,6 +10,7 @@ import Clima from "../../images/clima.jpg";
 import Nature from "../../images/natureza.jpg";
 import People from "../../images/sociedade.jpg";
 import { Link, useParams } from "react-router-dom";
+import { AiFillInfoCircle } from "react-icons/ai";
 
 export default function Information() {
   const [open1, setOpen1] = useState(false);
@@ -62,6 +63,12 @@ export default function Information() {
             satélite de todo o território nacional entre 1985 e 2020 feita pela
             equipe do MapBiomas. O país vem perdendo 15% da superfície de água
             desde o começo dos anos 1990.
+            <a
+              className="info-link"
+              href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
+            >
+              <AiFillInfoCircle />
+            </a>
           </div>
         </Popup>
 
@@ -91,6 +98,12 @@ export default function Information() {
             interior, em cidades menores, a situação não é muito diferente. Em
             muitos casos o numero de animais em situação de rua chega a 1/4 da
             população humana.
+            <a
+              className="info-link"
+              href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
+            >
+              <AiFillInfoCircle />
+            </a>
           </div>
         </Popup>
 
@@ -125,6 +138,12 @@ export default function Information() {
             térmico nos afeta como se fosse um gatilho no nosso psicológico, nos
             fazendo sentir mais cansados, nervosos e menos dispostos, por
             exemplo”, diz a pesquisadora.
+            <a
+              className="info-link"
+              href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
+            >
+              <AiFillInfoCircle />
+            </a>
           </div>
         </Popup>
 
@@ -155,6 +174,12 @@ export default function Information() {
             econômicas até políticas, destacando-se as desigualdades sociais, a
             pobreza, as crises (política, econômica, sanitária) e a má
             distribuição de alimentos.
+            <a
+              className="info-link"
+              href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
+            >
+              <AiFillInfoCircle />
+            </a>
           </div>
         </Popup>
 
@@ -182,6 +207,12 @@ export default function Information() {
             desigualdade social e de renda do mundo, segundo o novo estudo
             lançado mundialmente nesta terça-feira (7/12) pelo World Inequality
             Labo Brasil.
+            <a
+              className="info-link"
+              href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
+            >
+              <AiFillInfoCircle />
+            </a>
           </div>
         </Popup>
 
@@ -214,6 +245,12 @@ export default function Information() {
             naturais não atuam apenas como reservas da biodiversidade, eles
             também são reservatórios que mantêm o carbono fora da atmosfera e
             dos oceanos.
+            <a
+              className="info-link"
+              href="https://docs.google.com/document/d/1zjbPVbJJhrAdWEBqydFTiz1luTpj-qMFxwHPmnASOv4/edit?usp=sharing"
+            >
+              <AiFillInfoCircle />
+            </a>
           </div>
         </Popup>
       </section>
