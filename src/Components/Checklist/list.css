@@ -102,8 +102,9 @@
     height: 250px;
   }
 
-  .mobile-icon {
+  .btn-complete, .btn-delete, .btn-edit, .btn-new {
     color: black;
+    border: none;
   }
 
   .btn-complete, .btn-delete, .btn-edit, .btn-new {
