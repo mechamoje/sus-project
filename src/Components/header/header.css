@@ -27,7 +27,14 @@ header .home-btn {
 }
 
 @media (max-width: 550px) {
+  header {
+    justify-content: center;
+  }
   .home-btn {
+    display: none;
+  }
+
+  .header-logo-img {
     display: none;
   }
 }
