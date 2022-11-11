@@ -1,34 +1,45 @@
 .data-item {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-block: 10px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 10px;
 }
 
-.data-item:last-child{
-    margin-bottom: 20px;
+.data-item:last-child {
+  margin-bottom: 20px;
 }
 
-.btn-complete, .btn-delete, .btn-edit, .btn-new {
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: transparent;
-    text-align: center;
-    padding-top: 5px;
+.not-completed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.btn-complete, .btn-delete, .btn-edit {
-    margin-right: 2px;
+.btn-complete,
+.btn-delete,
+.btn-edit,
+.btn-new {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.btn-complete,
+.btn-delete,
+.btn-edit {
+  margin-right: 2px;
 }
 
 .btn-container {
-    display: flex;
+  display: flex;
 }
 
 .btn-container button {
-    margin-right: 10px;
-    cursor: pointer;
+  margin-right: 10px;
+  cursor: pointer;
 }

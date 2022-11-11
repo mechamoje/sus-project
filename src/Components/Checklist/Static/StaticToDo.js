@@ -58,11 +58,6 @@ function StaticToDo({ initialState, value }) {
       })
   );
 
-  // const tasks = data
-  //   .filter((tarefa) => !complete.includes(tarefa))
-  //   .filter((tarefa) => !lateTasks.includes(tarefa));
-  // console.log(tasks);
-
   const completeTask = (task) => {
     const position = allTasks.findIndex((t) => t === task);
     allTasks[position].complete = true;
@@ -71,6 +66,7 @@ function StaticToDo({ initialState, value }) {
   };
 
   let completedTasks = allTasks.filter((task) => task.complete);
+  localStorage.setItem("completedTasks", JSON.stringify(completedTasks));
 
   let incompleteTasks = allTasks.filter((task) => !task.complete);
 
@@ -83,6 +79,7 @@ function StaticToDo({ initialState, value }) {
     setAlltasks(swapvar);
     console.log(swapvar);
   };
+  
 
   const Troca = (tasks, idValue, dataItem) => {
     if (idValue) {

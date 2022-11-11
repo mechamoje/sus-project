@@ -18,6 +18,7 @@ footer {
 
 #footer-nav {
     list-style-type: none;
+    display: flex;
 }
 
 #footer-nav li {
@@ -30,3 +31,9 @@ footer {
     color: #B18644;
 }
 
+@media (max-width: 550px) {
+    #footer-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+  }

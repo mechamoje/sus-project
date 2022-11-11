@@ -239,6 +239,12 @@ export default function Information() {
             Quero iniciar a mudança agora!{" "}
           </Link>
         </button>
+        <button id="btn-action-mobile">
+          <Link to={`/tasks/${params.id}`}>
+            {" "}
+            Iniciar a mudança agora!{" "}
+          </Link>
+        </button>
       </div>
     </div>
   );

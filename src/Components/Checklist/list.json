@@ -1,131 +1,309 @@
-[{
+[
+  {
     "id": 1,
-    "task": "Utilizar materiais recicláveis em meus projetos",
+    "task": "Utilizar materiais recicláveis em meus projetos escolares",
     "complete": false,
-    "field":"Educação"
-  }, {
-    "id": 2,
-    "task": "Utilizar materiais recicláveis em meus serviços",
-    "complete": false,
-    "field":"Vendas"
-  }, {
-    "id": 3,
-    "task": "Consumir energia conscientemente: poupar o que for possível",
-    "complete": false,
-    "field":"Vendas"
-  }, {
-    "id": 4,
-    "task": "Utilizar materiais recicláveis em meus serviços",
-    "complete": false,
-    "field":"Saúde"
-  }, {
-    "id": 5,
-    "task": "Utilizar materiais recicláveis em meus projetos",
-    "complete": false,
-    "field":"Tecnologia"
-  }, {
-    "id": 6,
-    "task": "Utilizar materiais recicláveis em meus serviços",
-    "complete": false,
-    "field":"Informação"
-  }, {
-    "id": 7,
-    "task": "Utilizar materiais recicláveis em meus serviços",
-    "complete": false,
-    "field":"Serviços"
-  }, {
-    "id": 8,
-    "task": "Utilizar materiais recicláveis em meus serviços",
-    "complete": false,
-    "field":"Beleza e estética"
-  }, {
-    "id": 9,
-    "task":"Utilizar materiais recicláveis em meus serviços",
-    "complete": false,
-    "field":"Alimentação"
-  }, {
+    "field": "Educação"
+  },
+  {
     "id": 10,
     "task": "Envolver meus docentes em projetos sociais",
     "complete": false,
-    "field":"Educação"
-  }, {
+    "field": "Educação"
+  },
+  {
+    "id": 21,
+    "task": "Incentivar meus discentes à adoção de animais de rua",
+    "complete": false,
+    "field": "Educação"
+  },
+  {
     "id": 11,
     "task": "Conscientizar meus docentes sobre o uso da água",
     "complete": false,
-    "field":"Educação"
-  }, {
-    "id": 12,
-    "task": "Assistir o documentário 'Terráqueos' ou outros relacionados à causa animal",
+    "field": "Educação"
+  },
+  {
+    "id": 23,
+    "task": "Reutilizar folhas de papéis por mais vezes",
     "complete": false,
-    "field":"Outros"
-  }, {
+    "field": "Educação"
+  },
+  {
+    "id": 2,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field": "Vendas"
+  },  
+  {
+    "id": 3,
+    "task": "Consumir energia conscientemente: poupar o que for possível",
+    "complete": false,
+    "field": "Vendas"
+  },
+  {
+    "id": 23,
+    "task": "Contribuir para a redução no uso de plástico durante o envio dos meus produtos",
+    "complete": false,
+    "field": "Vendas"
+  },
+  {
+    "id": 23,
+    "task": "Reutilizar folhas de papéis por mais vezes",
+    "complete": false,
+    "field": "Vendas"
+  },
+  {
+    "id": 4,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field": "Saúde"
+  },
+  {
+    "id": 5,
+    "task": "Utilizar materiais recicláveis em meus projetos",
+    "complete": false,
+    "field": "Tecnologia"
+  },
+  {
+    "id": 18,
+    "task": "Desligar aparelhos eletrodomésticos após o uso",
+    "complete": false,
+    "field": "Tecnologia"
+  },
+  {
+    "id": 6,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field": "Informação"
+  },
+  {
+    "id": 7,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field": "Serviços"
+  },
+  {
+    "id": 23,
+    "task": "Teste por pelo menos 1x no mês fazer a compra de seus materiais de fornecedores sustentáveis",
+    "complete": false,
+    "field": "Serviços"
+  },
+  {
+    "id": 8,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field": "Beleza e estética"
+  },
+  {
+    "id": 19,
+    "task": "Dedicar parte de meus serviços à pessoas carentes, ainda que apenas 1 vez no mês.",
+    "complete": false,
+    "field": "Beleza e estética"
+  },
+  {
+    "id": 23,
+    "task": "Teste por pelo menos 1x no mês fazer a compra de seus materiais de fornecedores sustentáveis",
+    "complete": false,
+    "field": "Beleza e estética"
+  },
+  {
+    "id": 9,
+    "task": "Utilizar materiais recicláveis em meus serviços",
+    "complete": false,
+    "field": "Alimentação"
+  },  
+  {
     "id": 13,
     "task": "Dedicar parte do alimento que produzo/sirvo à pessoas necessitadas",
     "complete": false,
-    "field":"Alimentação"
-  }, {
-  "id": 14,
-  "task": "Reduzir meu tempo de banho",
-  "complete": false,
-  "field":"Outros"
-}, {
-  "id": 15,
-  "task": "Descobrir como tornar minha produção mais natural e orgânica para os consumidores",
-  "complete": false,
-  "field":"Alimentação"
-}, {
-  "id": 16,
-  "task": "Desligar aparelhos eletrodomésticos após o uso",
-  "complete": false,
-  "field":"Outros"
-}, {
-  "id": 17,
-  "task": "Reduzir o uso de produtos aerossóis",
-  "complete": false,
-  "field":"Outros"
-}, {
-  "id": 18,
-  "task": "Desligar aparelhos eletrodomésticos após o uso",
-  "complete": false,
-  "field":"Tecnologia"
-}, {
-  "id": 19,
-  "task": "Dedicar parte de meus serviços à pessoas carentes, ainda que apenas 1 vez no mês.",
-  "complete": false,
-  "field":"Beleza e estética"
-}, {
-  "id": 20,
-  "task": "Prover refeição à animais de rua",
-  "complete": false,
-  "field":"Outros"
-}, {
-  "id": 21,
-  "task": "Incentivar meus discentes à adoção de animais de rua",
-  "complete": false,
-  "field":"Educação"
-}, {
-  "id": 22,
-  "task": "Utilizar materiais recicláveis em meus serviços",
-  "complete": false,
-  "field":"Serviços"
-}, {
-  "id": 23,
-  "task": "Utilizar materiais recicláveis em meus serviços",
-  "complete": false,
-  "field":"Vendas"
-}, {
-  "id": 24,
-  "task": "Utilizar materiais recicláveis em meus serviços",
-  "complete": false,
-  "field":"Vendas"
-}, {
-  "id": 25,
-  "task": "Utilizar materiais recicláveis em meus serviços",
-  "complete": false,
-  "field":"Vendas"
-}, {
-  "id": 26,
-  "task": "Utilizar materiais recicláveis em meus serviços",
-  "complete": false,
-  "field":"Vendas"
-}]
+    "field": "Alimentação"
+  },
+  {
+    "id": 15,
+    "task": "Descobrir como tornar minha produção mais natural e orgânica para os consumidores",
+    "complete": false,
+    "field": "Alimentação"
+  },
+  {
+    "id": 23,
+    "task": "Teste por pelo menos 1x no mês fazer suas compras em marcas sustentáveis ou pequenos produtores",
+    "complete": false,
+    "field": "Alimentação"
+  },
+  {
+    "id": 15,
+    "task": "Introduzir opções sem carnes no seu produto",
+    "complete": false,
+    "field": "Alimentação"
+  },
+  {
+    "id": 12,
+    "task": "Assistir o documentário 'Terráqueos' ou outros relacionados à causa animal",
+    "complete": false,
+    "field": "Outros"
+  },
+
+  {
+    "id": 14,
+    "task": "Reduzir meu tempo de banho",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 16,
+    "task": "Desligar aparelhos eletrodomésticos após o uso",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 17,
+    "task": "Trocar seus produtos aerossóis por produtos em creme",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 20,
+    "task": "Prover refeição à animais de rua",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 11,
+    "task": "Utilizar por mais momentos do dia a iluminação natural",
+    "complete": false,
+    "field": "Outros"
+  },  
+  {
+    "id": 23,
+    "task": "Reutilizar folhas de papéis por mais vezes",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Contribuir para a implementação da coleta seletiva em minha casa e/ou trabalho",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Evitar/eliminar o uso de copos descartáveis (que tal comprar um copinho retrátil?)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Contribuir para a implementação da coleta seletiva em minha casa e/ou trabalho",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Evitar/eliminar o uso de canudos",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Contribuir financeiramente com alguma ong para animais carentes da sua cidade ou estado",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Contribuir financeiramente com alguma ong para pessoas em situação de vulnerabilidade",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Fazer uma visita à alguma ONG da sua cidade (pode ser para animais, pessoas, o que você se afeiçoar mais)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Eliminar o consumo de carnes vermelhas 1 dia da sua semana (que tal um desafio?)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Eliminar o consumo de carnes brancas 1 dia da sua semana (que tal um desafio?)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Eliminar o consumo de qualquer tipo de carne por 1 dia da sua semana (que tal um desafio ainda maior?)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Me locomover mais vezes utilizando transportes não poluentes (que tal ir ao trabalho 1 dia na semana de bicicleta?)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Na próxima vez que chover, colete a água da chuva! Pode ser em um balde ou caneco, reutilize para regar as plantas ou lavar seu carro.",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Passe a tirar da tomada todos os eletrônicos que não estão em uso durante a noite (ao menos 1x na semana)",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Na próxima vez que for ao mercado, dê preferência a sacolas realizáveis.",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Incentive outras pessoas a realizar ações sustentáveis: compartilhe o link desse projeto com pelo menos 1 colega.",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Guarde SEMPRE o lixo que você produzir na rua para descartar em casa, ou no lugar correto",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Repense o uso daquilo que você iria descartar. Transforme a camiseta antiga em flanelas ou a garrafa pet em um vaso!",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Teste por pelo menos 1x no mês fazer suas compras em marcas sustentáveis ou pequenos produtores",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Desligue seus equipamentos de trabalho SEMPRE que não estiverem em uso! Habitue-se.",
+    "complete": false,
+    "field": "Outros"
+  }, 
+  {
+    "id": 23,
+    "task": "Em suas próximas compras, priorize recipientes de vidro ao invés de plástico",
+    "complete": false,
+    "field": "Outros"
+  },
+  {
+    "id": 23,
+    "task": "Produza algo do tipo 'do it yourself'",
+    "complete": false,
+    "field": "Outros"
+  }
+]

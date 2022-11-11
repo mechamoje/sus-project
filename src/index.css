@@ -5,3 +5,9 @@ button:hover {
 body {
     color: rgb(87, 76, 76);
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

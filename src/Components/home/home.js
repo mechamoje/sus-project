@@ -38,6 +38,15 @@ export default function Home() {
             Você está pronto para essa experiência?
           </p>
 
+          <p id="text-mobile" className={showForm === "#" ? "disable" : "enable"}>
+            <b>Olá!</b> Seja bem vindo(a) ao nosso projeto! <br/>
+            Nosso objetivo  é que você
+            saia daqui sabendo mais do que sabe agora sobre sustentabilidade e
+            que saiba exatamente quais AÇÕES tomar a partir de HOJE para
+            impactar positivamente o ambiente ao seu redor. <br/>
+            Vamos nessa experiência?
+          </p>
+
           <form className={showForm === "#" ? "enable" : "disable"}>
             <label>
               Qual seu nome?
@@ -53,10 +62,11 @@ export default function Home() {
               Qual sua área de atuação?
               <select
                 value={selectValue}
-                onChange={(e) => setSelectValue(e.target.value)}
+                onChange={(e) => {console.log('qualquer', e.target.value) 
+                  setSelectValue(e.target.value)}}
               >
                 {selectValues.map((item, index) => (
-                  <option value={item.id}> {item.name}</option>
+                  <option key={index} value={item.id}> {item.name}</option>
                 ))}
               </select>
             </label>
